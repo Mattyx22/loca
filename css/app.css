@@ -7,20 +7,18 @@ body {
     height: 50px;
 }
 
-
-
-.major, .row {
+.major,
+.row {
     width: 100vw;
     height: 100vh;
 }
 
 .left-panel {
-    
     padding: 15px 0 0 15px;
 }
 
 .right-panel {
-   padding: 0; 
+    padding: 0;
 }
 
 .row {
@@ -31,4 +29,40 @@ body {
     right: 10px;
     position: absolute;
     top: 20px;
+}
+
+
+/* Client */
+
+.client-map {
+    height: 100vh !important;
+    z-index: 1;
+}
+
+.client .col-12 {
+    padding: 0;
+    height: 100%
+}
+
+.footerDrawer {
+    background-color: #eeeeee;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footerDrawer .open {
+    background-image: linear-gradient(to bottom right, #3500b5, #00024c);
+    height: 8vh;
+    color: white;
+    z-index: 999;
+    font-size: 30px;
+    padding: 5px 15px;
+}
+
+.footerDrawer .content {
+    height: 10vh;
+    background-color: #cccccc;
+    display: none;
+    z-index: 999;
 }

@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -11,7 +11,8 @@ body {
 }
 
 main {
-    background: url('../img/main.jpg') no-repeat scroll center bottom/cover;;
+    background: url('../img/main.jpg') no-repeat scroll center bottom/cover;
+    ;
     width: 100vw;
     height: 90vh;
     background-size: cover;
@@ -32,7 +33,7 @@ nav .fas {
 }
 
 .bg-light {
-   background-color: rgba(0,0,0,0) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .solid-nav {
@@ -87,53 +88,52 @@ h5 {
     background-color: #f5f6ff;
 }
 
-@media (min-width: 1006px) and (max-width: 1163px){
+@media (min-width: 1006px) and (max-width: 1163px) {
     .right-wrapper {
         margin-right: 40%;
     }
-
     .phone-mock {
         margin-left: 40%;
     }
 }
 
-@media(min-width: 760px) and (max-width: 1005px){
+@media(min-width: 760px) and (max-width: 1005px) {
     .right-wrapper {
         margin-right: 20%;
     }
-
     .phone-mock {
         margin-left: 20%;
     }
 }
 
-@media(max-width: 759px){
+@media(max-width: 759px) {
     .right-wrapper {
         margin-right: 0;
         width: 200%;
         top: 100px;
     }
-
-    main .col-6:nth-child(odd){
+    main .col-6:nth-child(odd) {
         display: none;
     }
 }
 
-@media (max-width: 768px){
-    .feature-phone{
+@media (max-width: 768px) {
+    .feature-phone {
         display: none;
     }
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
     .bg-light {
-        background-color: rgba(0,0,0,0.9) !important;
+        background-color: rgba(0, 0, 0, 0.9) !important;
     }
 }
+
 
 /* feature */
 
-.feature-content, .feature-title {
+.feature-content,
+.feature-title {
     display: inline;
 }
 
@@ -164,7 +164,9 @@ h5 {
     text-align: center;
 }
 
+
 /* prices */
+
 .price-header .fas {
     font-size: 45px;
     padding: 30px;
@@ -184,8 +186,8 @@ h5 {
     overflow: hidden;
     text-align: center;
     color: #8790af;
-    -webkit-box-shadow: 0 0 15px -5px rgba(0,0,0,.1);
-    box-shadow: 0 0 15px -5px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 0 15px -5px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 15px -5px rgba(0, 0, 0, .1);
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s;
@@ -206,7 +208,7 @@ h5 {
 .price-box:hover .price-header {
     color: white;
     background-image: linear-gradient(to bottom right, #4b24a9, #9395ea);
-    box-shadow: 0 0 15px -5px rgba(0,0,0,.1);
+    box-shadow: 0 0 15px -5px rgba(0, 0, 0, .1);
 }
 
 .price {
@@ -226,12 +228,16 @@ h5 {
     padding: 8px 25px;
 }
 
+
 /* faq */
+
 .card {
     background-color: #f5f6ff;
 }
 
+
 /* contact */
+
 .contact .col-6 {
     text-align: center;
     font-size: 19px;
